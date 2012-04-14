@@ -15,6 +15,9 @@ Or in Xcode just add this in the 'custom' script:
 
 Providing of course , that this is where you've installed VersioningTool :)
 
+You have to create "Bundle Version" in the plist file, as string, with initial value 1.
+
+
 That's it. 
 
 
