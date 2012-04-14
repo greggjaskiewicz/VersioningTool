@@ -29,7 +29,7 @@
 		275FF10F1539702900EC611D /* VersioningTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VersioningTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		275FF1131539702900EC611D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		275FF1161539702900EC611D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		275FF1191539702900EC611D /* VersioningTool-Prefix.pch */ = {isa = PBXFileReference; path = "VersioningTool-Prefix.pch"; sourceTree = "<group>"; };
+		275FF1191539702900EC611D /* VersioningTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VersioningTool-Prefix.pch"; sourceTree = "<group>"; };
 		275FF11A1539702900EC611D /* VersioningTool.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = VersioningTool.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,7 +221,7 @@
 				275FF11D1539702900EC611D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		275FF11E1539702900EC611D /* Build configuration list for PBXNativeTarget "VersioningTool" */ = {
 			isa = XCConfigurationList;
@@ -230,6 +230,7 @@
 				275FF1201539702900EC611D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
