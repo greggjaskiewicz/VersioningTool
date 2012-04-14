@@ -9,6 +9,12 @@ VersioningTool -r ~/Projects/myproject
 VersioningTool ~/Projects/myproject/info.plist ~/Projects/myproject/component/info.plist
 VersioningTool -r
 
+Or in Xcode just add this in the 'custom' script:
 
+/usr/local/bin/VersioningTool "$PRODUCT_SETTINGS_PATH"
+
+Providing of course , that this is where you've installed VersioningTool :)
+
+That's it. 
 
 
