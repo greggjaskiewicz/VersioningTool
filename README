@@ -1,0 +1,14 @@
+This tool is replacing agvtool.
+
+agvtool was causing Xcode to crash all the time - so I wrote a simple tool that replaces it.  
+Takes either -r [path] or list of names of plist files.
+
+For instance
+
+VersioningTool -r ~/Projects/myproject
+VersioningTool ~/Projects/myproject/info.plist ~/Projects/myproject/component/info.plist
+VersioningTool -r
+
+
+
+
