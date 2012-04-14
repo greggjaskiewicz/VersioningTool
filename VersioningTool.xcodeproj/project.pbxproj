@@ -31,6 +31,7 @@
 		275FF1161539702900EC611D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		275FF1191539702900EC611D /* VersioningTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VersioningTool-Prefix.pch"; sourceTree = "<group>"; };
 		275FF11A1539702900EC611D /* VersioningTool.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = VersioningTool.1; sourceTree = "<group>"; };
+		275FF1271539872000EC611D /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		275FF1041539702900EC611D = {
 			isa = PBXGroup;
 			children = (
+				275FF1271539872000EC611D /* README */,
 				275FF1151539702900EC611D /* VersioningTool */,
 				275FF1121539702900EC611D /* Frameworks */,
 				275FF1101539702900EC611D /* Products */,
